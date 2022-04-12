@@ -1,0 +1,19 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        ".env": "dotenv",
+        ".env.*": "dotenv"
+    },
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#ff0000b2",
+        "editorWarning.foreground": "#ffe600b2",
+        "editorInfo.foreground": "#00d9ffb2"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
