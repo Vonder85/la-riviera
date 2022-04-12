@@ -9,10 +9,6 @@
 ## Install
 
 ```
-## CLONE REPO
-git clone git@gitlab.socrate.vsct.fr:sncf-voyages/sticky-manager-react.git
-cd sticky-manager-react
-
 ## INSTALL DEPENDENCIES
 yarn
 ```
