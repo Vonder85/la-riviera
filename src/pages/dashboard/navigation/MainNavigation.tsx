@@ -1,7 +1,7 @@
 import { Divider, Drawer, Link, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography } from '@mui/material';
-import { useRouteMatch } from '../../hooks/useRouteMatch';
-import { getEnv } from '../../utils/env';
-import { Pages } from '../pages';
+import { useRouteMatch } from '../../../hooks/useRouteMatch';
+import { getEnv } from '../../../utils/env';
+import { Pages } from '../../pages';
 
 export const MainNavigation = (): JSX.Element => {
     const match = useRouteMatch(Pages.list().map(page => page.path) as string[]);
