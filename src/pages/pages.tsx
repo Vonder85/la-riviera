@@ -6,7 +6,7 @@ import PageLoading from './loading/PageLoading';
 import { IPage } from '../interfaces/IPage';
 
 // Lazy load page
-const PageHome = lazy(() => import(/* webpackChunkName: "pages/home" */ './home/PageHome'));
+const Home = lazy(() => import(/* webpackChunkName: "pages/home" */ './home/home'));
 const PageDashboard = lazy(() => import(/* webpackChunkName: "pages/dashboard" */ './dashboard/PageDashboard'));
 const PageJobsList = lazy(() => import(/* webpackChunkName: "pages/jobs/list" */ './job/PageJobsList'));
 const PageAccount = lazy(() => import(/* webpackChunkName: "pages/account" */ './account/PageAccount'));
@@ -19,13 +19,11 @@ export class Pages {
             path: '/',
             id: 'home',
             title: 'Home',
-            element: <PageHome />,
-            menu: true,
+            element: <Home />,
             auth: false,
-            icon: DashboardCustomizeOutlinedIcon,
         },
         {
-            path: '/',
+            path: '/dashboard',
             id: 'dashboard',
             title: 'Dashboard',
             menu: true,

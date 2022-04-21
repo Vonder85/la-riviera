@@ -1,5 +1,5 @@
 import { Button, Card, CardContent, CardHeader, Container, Typography } from '@mui/material';
-import { Authentication } from '../../services/Authentication';
+import { Authentication } from '../../../services/Authentication';
 
 const PageHome = (): JSX.Element => {
     return (
